@@ -46,6 +46,8 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:elevation="3dp"
+                android:background="@drawable/orange_background"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="46dp">
 
@@ -54,6 +56,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Let's continue"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
